@@ -1,5 +1,5 @@
 import blair_music
-    
+
 def main():
     # OBSERVATION 1: Saved up so many lines of code right here!
     my_songs = blair_music.heres_a_bunch_of_songs()
@@ -13,7 +13,7 @@ def main():
         list_number = index + 1
 
         # Print out our song list
-        print(str(list_number) + ".", this_song.now_playing())
+        print(str(list_number) + ".", this_song.song_brief_description())
 
     user_choice = input("Which song to listen to? ")
     print() # OBSERVATION 3: Sneaky new line
@@ -22,7 +22,7 @@ def main():
         selected_song_index = int(user_choice) - 1
         # OBSERVATION 4: This reverses the process in OBSERVATION 2...
 
-        selected_song = my_songs[selected_song_index]
+        selected_song = my_songs[selected_song_index]      # my_songs[5]
         print("NOW PLAYING:", selected_song.now_playing())
         print("ENJOY! ☺️")
     else:
