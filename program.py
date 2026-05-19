@@ -2,7 +2,7 @@ import blair_music
 
 def main():
     # OBSERVATION 1: Saved up so many lines of code right here!
-    my_songs = blair_music.heres_a_bunch_of_songs()
+    my_songs = blair_music.generate_example_songlist()
     
     print("MY SONGS:")
     for index, this_song in enumerate(my_songs):

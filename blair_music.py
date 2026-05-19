@@ -15,7 +15,9 @@ class Song:
         prepared_return += "📀 " + self.album
         return prepared_return
 
-def heres_a_bunch_of_songs():
+# The purpose of this function is to assemble a list of example
+# songs, to demonstrate the functionality of this codebase.
+def generate_example_songlist():
     s1 = Song("Love Story", "Taylor Swift", "Fearless")
     s2 = Song("グッバイバイ", "冨岡 愛", "Ai'scream")
     s3 = Song("Dynamite", "BTS", "Be")
