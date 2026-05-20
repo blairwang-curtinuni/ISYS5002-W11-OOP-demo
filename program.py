@@ -15,7 +15,7 @@ def main():
         # Print out our song list
         print("The number", str(list_number), "song is:", this_song.song_brief_description())
 
-    user_choice = input("Which song to listen to? ")
+    user_choice = input("Please enter the number of the song that you wish to listen to: ")
     print() # OBSERVATION 3: Sneaky new line
 
     if int(user_choice) in range(1, len(my_songs) + 1):
