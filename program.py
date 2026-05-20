@@ -13,7 +13,7 @@ def main():
         list_number = index + 1
 
         # Print out our song list
-        print(str(list_number) + ".", this_song.song_brief_description())
+        print("The number", str(list_number), "song is:", this_song.song_brief_description())
 
     user_choice = input("Which song to listen to? ")
     print() # OBSERVATION 3: Sneaky new line
